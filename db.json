@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1772202459860",
+      "username": "teu",
+      "passwordHash": "12345"
+    },
+    {
+      "id": "1772203385708",
+      "username": "teud",
+      "passwordHash": "123"
+    },
+    {
+      "id": "1772203491590",
+      "username": "sususs amongus",
+      "passwordHash": "123456"
+    },
+    {
+      "id": "1772203861425",
+      "username": "Thành Lâm",
+      "passwordHash": "llaamm33000033"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1772202471705",
+      "userId": "1772202459860",
+      "cardId": "data-detective",
+      "content": "hahahhâhahha",
+      "score": 0,
+      "bestScore": 0,
+      "updatedAt": "2026-02-27T14:35:03.696Z"
+    },
+    {
+      "id": "1772202489675",
+      "userId": "1772202459860",
+      "cardId": "show-and-tell",
+      "content": "",
+      "updatedAt": "2026-02-27T14:28:09.675Z"
+    },
+    {
+      "id": "1772202495984",
+      "userId": "1772202459860",
+      "cardId": "the-hero",
+      "content": "",
+      "updatedAt": "2026-02-27T14:28:15.984Z"
+    },
+    {
+      "id": "1772202510171",
+      "userId": "1772202459860",
+      "cardId": "pitch-perfect",
+      "content": "",
+      "updatedAt": "2026-02-27T14:28:30.171Z"
+    },
+    {
+      "id": "1772203390658",
+      "userId": "1772203385708",
+      "cardId": "data-detective",
+      "content": "Vấn đề bạn gặp phải là do file db.json nằm trong thư mục gốc của dự án, và mỗi khi ứng dụng lưu dữ liệu vào file này, Vite (công cụ phát triển) phát hiện sự thay đổi và tự động tải lại trang (reload). Điều này tạo ra một vòng lặp vô tận: Lưu dữ liệu -> File thay đổi -> Reload trang -> Lưu dữ liệu...\nTôi đã khắc phục vấn đề này bằng cách cấu hình Vite để bỏ qua việc theo dõi file db.json.\nCụ thể, tôi đã thêm đoạn cấu hình sau vào vite.config.ts:\ncode\nTypeScript\nserver: {\n      // ...\n      watch: {\n        ignored: ['**/db.json'], // Bỏ qua file db.json\n      },\n    },\nBây giờ bạn có thể sử dụng ứng dụng bình thường mà không bị reload liên tục nữa. Hãy thử tải lại trang một lần nữa để đảm bảo cấu hình mới được áp dụng.\n",
+      "score": 4,
+      "bestScore": 4,
+      "updatedAt": "2026-02-27T14:43:57.212Z"
+    },
+    {
+      "id": "1772203514125",
+      "userId": "1772203385708",
+      "cardId": "three-is-the-magic-number",
+      "content": "",
+      "updatedAt": "2026-02-27T14:45:14.125Z"
+    },
+    {
+      "id": "1772203596173",
+      "userId": "1772203491590",
+      "cardId": "dragon-city",
+      "content": "",
+      "updatedAt": "2026-02-27T14:46:36.173Z"
+    }
+  ]
+}
