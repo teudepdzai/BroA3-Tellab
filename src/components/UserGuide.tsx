@@ -73,6 +73,22 @@ export default function UserGuide() {
         </p>
       </div>
 
+      {/* Video Tutorial Section */}
+      <div className="mb-16 max-w-4xl mx-auto">
+        <div className="relative pt-[56.25%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 bg-slate-100 dark:bg-slate-900 group">
+           <iframe 
+             className="absolute top-0 left-0 w-full h-full"
+             src="https://www.youtube.com/embed/BW0H_MW6TQ8" 
+             title="Video Hướng dẫn"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             allowFullScreen
+           ></iframe>
+        </div>
+        <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-4 italic">
+          {language === 'vi' ? 'Xem video hướng dẫn để hiểu rõ hơn cách sử dụng.' : 'Watch the tutorial video to learn more.'}
+        </p>
+      </div>
+
       {/* High Score Tips */}
       <div className="bg-gradient-to-br from-indigo-600 to-purple-700 rounded-2xl p-8 text-white shadow-xl mb-16 relative overflow-hidden">
         <div className="absolute top-0 right-0 p-12 opacity-10">
