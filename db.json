@@ -29,7 +29,7 @@
       "content": "hahahhâhahha",
       "score": 0,
       "bestScore": 0,
-      "updatedAt": "2026-02-27T14:35:03.696Z"
+      "updatedAt": "2026-02-28T09:55:37.469Z"
     },
     {
       "id": "1772202489675",
@@ -43,7 +43,7 @@
       "userId": "1772202459860",
       "cardId": "the-hero",
       "content": "",
-      "updatedAt": "2026-02-27T14:28:15.984Z"
+      "updatedAt": "2026-02-27T15:54:01.225Z"
     },
     {
       "id": "1772202510171",
@@ -74,6 +74,15 @@
       "cardId": "dragon-city",
       "content": "",
       "updatedAt": "2026-02-27T14:46:36.173Z"
+    },
+    {
+      "id": "1772272904344",
+      "userId": "1772202459860",
+      "cardId": "dragon-city",
+      "content": "1. What is your City?\nWhat is good and valuable in the status quo?\nWhat is wrong, unfair or wasteful?\nWho’s in charge? Who do you need to persuade to act?\n2. What is your Dragon?\nWhere is the threat coming from?\nHow has it been allowed to get this bad?\nIs there an opportunity here? (Dragons hoard gold!)\n3. Escape\nWhere would you go?\nWhat should you take with you?\nWhat’s the cost of abandoning the city?\n4. Defend\nWhat is worth defending in the old city?\nHow can you strengthen your walls?\nWalls protect, but they also restrict. What’s the cost of staying put?\n5. Attack\nWhat’s your best line of attack?\nWhat are your chances of winning?\nWhat’s the reward and is it worth the risk?\n",
+      "score": 0,
+      "bestScore": 0,
+      "updatedAt": "2026-02-28T11:16:37.163Z"
     }
   ]
 }

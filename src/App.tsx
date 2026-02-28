@@ -12,7 +12,7 @@ import StatsModal from './components/StatsModal';
 import LoginModal from './components/LoginModal';
 import HistoryModal from './components/HistoryModal';
 import UserGuide from './components/UserGuide';
-
+import Credits from './components/Credits';
 const CardImage = ({ card, selectedCategory, bestScore }: { card: TacticCard, selectedCategory: Category, bestScore?: number }) => {
   const { imageSrc, isLoading } = useCachedImage(card.imageUrl, `card-image-${card.id}`);
   
@@ -402,6 +402,10 @@ function AppContent() {
               </AnimatePresence>
             </div>
           </motion.div>
+        )}
+        {/* Credits Section */}
+        {!activeCard && (
+          <Credits />
         )}
       </main>
 
